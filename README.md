@@ -9,7 +9,7 @@
 
 ## Ver dashboard / View dashboard
 
-> 🔗 **[Descargar y abrir mapa interactivo (mapa_mapaton_peru_2026.html) →]([./mapa_mapaton_peru_2026.html](https://evelyncabrera-pe.github.io/mapaton-peru-2026/))**  
+> 🔗 **[Descargar y abrir mapa interactivo (mapa_mapaton_peru_2026.html) →](https://evelyncabrera-pe.github.io/mapaton-peru-2026/)**  
 
 ---
 
