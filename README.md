@@ -9,7 +9,7 @@
 
 ## Ver dashboard / View dashboard
 
-> 🔗 **[Descargar y abrir mapa interactivo (mapa_mapaton_peru_2026.html) →](./mapa_mapaton_peru_2026.html)**  
+> 🔗 **[Descargar y abrir mapa interactivo (mapa_mapaton_peru_2026.html) →]([./mapa_mapaton_peru_2026.html](https://evelyncabrera-pe.github.io/mapaton-peru-2026/))**  
 
 ---
 
@@ -47,9 +47,9 @@ Datos Abiertos HDX (Perú Buildings GeoJSON)
 ```
 mapaton-peru-2026/
 │
-├── Mapaton_Peru_2026.ipynb    ← Notebook principal: Ejecuta todo el flujo y pipeline
+├── prepare_data_mapaton.ipynb    ← Notebook principal: Ejecuta todo el flujo y pipeline
 │
-├── Peru_buildings.geojson      ← Dataset crudo descargado de HDX (temporal)
+├── Peru_buildings.geojson      ← Dataset crudo de HDX (temporal - descargado de la URL humdata.org)
 │
 └── mapa_mapaton_peru_2026.html ← Output definitivo: Mapa dinámico interactivo con panel de control
 ```
@@ -103,7 +103,7 @@ cd mapaton-peru-2026
 pip install geopandas folium requests numpy jinja2
 
 # 3. Abrir y ejecutar el notebook
-jupyter notebook Mapaton_Peru_2026.ipynb
+jupyter notebook prepare_data_mapaton.ipynb
 ```
 
 ---
@@ -126,12 +126,6 @@ raw_json (Grid)     ──────────→  Capas Dinámicas y Toolti
 
 ## Sobre este proyecto / About
 
-Este repositorio forma parte del portafolio de datos de **Evelyn Cabrera Arias**, Analytics Translator Senior con más de 10 años de experiencia en banca, riesgo crediticio y modelamiento geográfico.
+Este repositorio forma parte del portafolio de datos de **Evelyn Cabrera Arias**, Analytics Translator Senior con más de 10 años de experiencia en banca, riesgo crediticio, estrategias y BI.
 
 🔗 [linkedin.com/in/evelyn-cabrera](https://linkedin.com/in/evelyn-cabrera) · [github.com/evelyncabrera-pe](https://github.com/evelyncabrera-pe)
-"""
-
-with open("README.md", "w", encoding="utf-8") as f:
-    f.write(readme_content)
-
-print("¡Archivo README.md generado y formateado con éxito con la nueva estructura de KPIs y badges!")
